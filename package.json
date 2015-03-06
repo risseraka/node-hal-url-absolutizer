@@ -11,7 +11,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "url42": "0.0.4"
+    "url42": "^0.0.5"
   },
   "devDependencies": {
     "async": "^0.9.0",
