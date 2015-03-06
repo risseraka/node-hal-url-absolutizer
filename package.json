@@ -1,6 +1,6 @@
 {
   "name": "hal-url-absolutizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Express middleware for absolutizing HAL URLs",
   "main": "index.js",
   "scripts": {
