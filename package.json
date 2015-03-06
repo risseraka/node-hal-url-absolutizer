@@ -4,17 +4,18 @@
   "description": "Express middleware for absolutizing HAL URLs",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha test"
+    "test": "NODE_ENV=test istanbul cover _mocha -- -R spec test/"
   },
   "author": {
     "name": "Adrien Risser"
   },
   "license": "ISC",
   "dependencies": {
-    "url42": "0.0.1"
+    "url42": "0.0.4"
   },
   "devDependencies": {
     "async": "^0.9.0",
+    "istanbul": "^0.3.7",
     "mocha": "^2.1.0"
   }
 }
