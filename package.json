@@ -1,0 +1,20 @@
+{
+  "name": "hal-url-absolutizer",
+  "version": "0.0.1",
+  "description": "Express middleware for absolutizing HAL URLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test"
+  },
+  "author": {
+    "name": "Adrien Risser"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "url42": "0.0.1"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "mocha": "^2.1.0"
+  }
+}
